@@ -185,6 +185,20 @@ Seque abaixo as referências bibliográficas usadas no presente projeto:
 ### Vídeos / Playlists
 
 ---
+<p align="justify"> 
+[<a id="MERCADO-Trabalho-Blockchain">MERCADO de Trabalho em Blockchain. Se trata de um vídeo com gravação ao vivo  abordando um estudo de mercado com análise das demandas do mercado para soluções usando arquitetura blockchain</a>]. Direção: Elaborado pelo canal do youtube: @Hyperledger.  Produção: Elaborado pelo canal do youtube: @Hyperledger.  Realização: Elaborado pelo canal do youtube: @Hyperledger.  Roteiro: Elaborado pelo canal do youtube: @Hyperledger. Fotografia: N/A.  Intérpretes: N/A. Local: Elaborado pelo canal do youtube: @Hyperledger, 28 de fev. de 2024. Indicação do suporte físico e duração entre parênteses, demais características (stream de vídeo, som, cor, legenda, tradução, stream de vídeo). Disponível em: < <a href="https://www.youtube.com/live/lKBvL_6kzAY?si=gP8U66WUAY4qeN4Y">https://www.youtube.com/live/lKBvL_6kzAY?si=gP8U66WUAY4qeN4Y</a> >. 
+Acesso em: 8 jul. 2024.
+</p>
+
+---
+
+<p align="justify"> 
+[<a id="Como-Operar-Usar-Hyperledger-Besu">Como Operar e Usar Hyperledger Besu em Redes Públicas e Privadas</a>]. Se trata de um vídeo com gravação ao vivo  abordando o operacional técnico para do uso de uma solução usando Hyperledger Besu em Redes Públicas e Privadas. Direção: Elaborado pelo canal do youtube: @Hyperledger.  Produção: Elaborado pelo canal do youtube: @Hyperledger.  Realização: Elaborado pelo canal do youtube: @Hyperledger.  Roteiro: Elaborado pelo canal do youtube: @Hyperledger. Fotografia: N/A.  Intérpretes: N/A. Local: Elaborado pelo canal do youtube: @Hyperledger, 14 de dez. de 2023. Indicação do suporte físico e duração entre parênteses, demais características (stream de vídeo, som, cor, legenda, tradução, stream de vídeo). Disponível em: <  <a href="https://www.youtube.com/live/F2bl3z11rYc?si=JhMzRvyZTEgyWczT">https://www.youtube.com/live/F2bl3z11rYc?si=JhMzRvyZTEgyWczT </a> >. 
+Acesso em: 8 jul. 2024.
+</p>
+
+---
+
 
 
 
