@@ -14,15 +14,12 @@ Até o momento, aplicáveis ao presente projeto, temos as seguintes indexações
 
 ### Status Totalmente Indexadas
 
-* [VIDEO LONGO 071518 – 03.04.02.01.17.06 – 1 How to pass Exam 1Z0-811 | Java Oracle Certified Foundations Associate in 20 hours | Part1 – Questões](../../docs/indexacoes/VIDEO%20LONGO%20071518%20–%2003.04.02.01.17.06%20–%201%20How%20to%20pass%20Exam%201Z0-811%20|%20Java%20Oracle%20Certified%20Foundations%20Associate%20in%2020%20hours%20|%20Part1%20–%20Questões.pdf). Vídeo longo totalmente indexada e relacionada com os questionários de contextos!
+* [VIDEO LONGO 10307 – 03.04.07.64.04.06 – Boas Práticas para Composição de Frameworks Hyperledger Fabric em Redes Blockchain – Hyperledger Foundation – Questões](../indexacoes/VIDEO%20LONGO%2010307%20–%2003.04.07.64.04.06%20–%20Boas%20Práticas%20para%20Composição%20de%20Frameworks%20Hyperledger%20Fabric%20em%20Redes%20Blockchain%20–%20Hyperledger%20Foundation%20–%20Questões.pdf). Vídeo longo totalmente indexada e relacionada com os questionários de contextos!
 
-* [VIDEO LONGO 074048 – 03.04.02.01.17.06 – 2 How to pass Exam 1Z0-811 | Java Oracle Certified Foundations Associate in 20 hours | Part 2 – Questões](../../docs/indexacoes/VIDEO%20LONGO%20074048%20–%2003.04.02.01.17.06%20–%202%20How%20to%20pass%20Exam%201Z0-811%20|%20Java%20Oracle%20Certified%20Foundations%20Associate%20in%2020%20hours%20|%20Part%202%20–%20Questões.pdf). Vídeo longo totalmente indexada e relacionada com os questionários de contextos!
-
-* [VIDEO LONGO – 061942 – 03.04.02.01.17.06 – 3 How to pass Exam 1Z0-811 | Java Oracle Certified Foundations Associate in 20 hours | Part 3 – Questões](../..docs/indexacoes/VIDEO%20LONGO%20–%20061942%20–%2003.04.02.01.17.06%20–%203%20How%20to%20pass%20Exam%201Z0-811%20|%20Java%20Oracle%20Certified%20Foundations%20Associate%20in%2020%20hours%20|%20Part%203%20–%20Questões.pdf). Playlist totalmente indexada e relacionada com os questionários de contextos!
-
-* [PLAYLIST 19 VIDEOS – 03.04.07.18.06 – Curso Multithread, Paralelismo e Concorrência com Java – RinaldoDev – Questões](PLAYLIST%2019%20VIDEOS%20–%2003.04.07.18.06%20–%20Curso%20Multithread,%20Paralelismo%20e%20Concorrência%20com%20Java%20–%20RinaldoDev%20–%20Questões.pdf). Playlist totalmente indexada e relacionada com os questionários de contextos!
 
 ### Status Parcialmente Idexadas
+
+* [VIDEO LONGO 22038 – 03.04.07.64 – Mercado de Trabalho em Blockchain - Hyperledger Foundation – Questões](../indexacoes/VIDEO%20LONGO%2022038%20–%2003.04.07.64%20–%20Mercado%20de%20Trabalho%20em%20Blockchain%20-%20Hyperledger%20Foundation%20–%20Questões.pdf). Indexação incompleta! Trabalho em progresso e sempre revisitando para atualização dos conceitos para aplicar a técnica de revisão espaçada!
 
 * [TRABALHO EM PROGRESSO](). Indexação incompleta! Trabalho em progresso e sempre revisitando para atualização dos conceitos para aplicar a técnica de revisão espaçada!
 
