@@ -80,6 +80,7 @@ Segue abaixo (não se limita) os objetivos do presente projeto:
 
 - [X] ~~Formatando documentação README.md~~
 - [ ] Indexação completa do vídeo longo: 
+    - [ ] [VIDEO LONGO 15728 – 03.04.07.64.04 – Como Operar e Usar Hyperledger Besu em Redes Públicas e Privadas - Hyperledger Foundation  – Questões](docs/indexacoes/VIDEO%20LONGO%2015728%20–%2003.04.07.64.04%20–%20Como%20Operar%20e%20Usar%20Hyperledger%20Besu%20em%20Redes%20Públicas%20e%20Privadas%20-%20Hyperledger%20Foundation%20%20–%20Questões.pdf) (mais detalhes veja [aqui](../docs/indexacoes/README.md))
     - [ ] [VIDEO LONGO 10307 – 03.04.07.64.04.06 – Boas Práticas para Composição de Frameworks Hyperledger Fabric em Redes Blockchain – Hyperledger Foundation – Questões](docs/indexacoes/VIDEO%20LONGO%2010307%20–%2003.04.07.64.04.06%20–%20Boas%20Práticas%20para%20Composição%20de%20Frameworks%20Hyperledger%20Fabric%20em%20Redes%20Blockchain%20–%20Hyperledger%20Foundation%20–%20Questões.pdf) (mais detalhes veja [aqui](../docs/indexacoes/README.md))
     - [ ] [VIDEO LONGO 22038 – 03.04.07.64 – Mercado de Trabalho em Blockchain - Hyperledger Foundation – Questões](docs/indexacoes/VIDEO%20LONGO%2022038%20–%2003.04.07.64%20–%20Mercado%20de%20Trabalho%20em%20Blockchain%20-%20Hyperledger%20Foundation%20–%20Questões.pdf) (mais detalhes veja [aqui](../docs/indexacoes/README.md))
 - [ ] [Desenvolver Contratos Inteligentes](#cap-6-Nitin-Gaur)

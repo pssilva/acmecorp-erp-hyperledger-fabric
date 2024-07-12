@@ -19,6 +19,8 @@ Até o momento, aplicáveis ao presente projeto, temos as seguintes indexações
 
 ### Status Parcialmente Idexadas
 
+* [VIDEO LONGO 15728 – 03.04.07.64.04 – Como Operar e Usar Hyperledger Besu em Redes Públicas e Privadas - Hyperledger Foundation  – Questões](../indexacoes/VIDEO%20LONGO%2015728%20–%2003.04.07.64.04%20–%20Como%20Operar%20e%20Usar%20Hyperledger%20Besu%20em%20Redes%20Públicas%20e%20Privadas%20-%20Hyperledger%20Foundation%20%20–%20Questões.pdf). Indexação incompleta! Trabalho em progresso e sempre revisitando para atualização dos conceitos para aplicar a técnica de revisão espaçada!
+
 * [VIDEO LONGO 22038 – 03.04.07.64 – Mercado de Trabalho em Blockchain - Hyperledger Foundation – Questões](../indexacoes/VIDEO%20LONGO%2022038%20–%2003.04.07.64%20–%20Mercado%20de%20Trabalho%20em%20Blockchain%20-%20Hyperledger%20Foundation%20–%20Questões.pdf). Indexação incompleta! Trabalho em progresso e sempre revisitando para atualização dos conceitos para aplicar a técnica de revisão espaçada!
 
 * [TRABALHO EM PROGRESSO](). Indexação incompleta! Trabalho em progresso e sempre revisitando para atualização dos conceitos para aplicar a técnica de revisão espaçada!
