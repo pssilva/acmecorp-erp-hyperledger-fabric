@@ -1,0 +1,58 @@
+@startuml Level-Context-Model
+
+title Nível Context :: {{NOME_PROJETO}}
+!include ../core/C4_Container.puml
+!include ../core/C4_Context.puml
+!include ../core/C4_Component.puml
+!include ../core/C4.puml
+!include ../core/C4_Deployment.puml
+
+' skinparam wrapWidth 200 
+' skinparam maxMessageSize 200
+' scale 0.95
+
+
+
+!define DEVICONS https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/devicons
+!define FONTAWESOME https://raw.githubusercontent.com/tupadr3/plantuml-icon-font-sprites/master/font-awesome-5
+!include DEVICONS/angular.puml
+!include DEVICONS/java.puml
+!include DEVICONS/msql_server.puml
+!include DEVICONS/mysql.puml
+!include DEVICONS/postgresql.puml
+!include FONTAWESOME/users.puml
+
+LAYOUT_WITH_LEGEND()
+SHOW_PERSON_OUTLINE()
+
+Person(users, "Customers", "People that need products", $sprite="users")
+Person(user, "Customer", "People that need products")
+Component(cmp, "Cmp", "Component", "The main interface that the customer interacts with", $sprite="angular")
+Deployment_Node(depl, "Deployment", "Deployment", "The main interface that the customer interacts with", $sprite="angular")
+Container(spa, "SPA", "angular", "The main interface that the customer interacts with", $sprite="angular")
+Container(api, "API {{NAME_API}}", "Spring Boot, java", " descrição sucinta ....", $sprite="java")
+ContainerDb(db, "Database", "Microsoft SQL", "Holds product, order and invoice information", $sprite="msql_server")
+ContainerDb(dbP, "Database PostGreSQL", "PostGreSQL", "Holds product, order and invoice information", $sprite="postgresql")
+
+System_Ext(email_system, "E-Mail System", "The internal Microsoft Exchange system", "envelope")
+System(system, "System", "The internal Microsoft Exchange system <img:http://plantuml.com/logo3.png>", "envelope", $sprite="img:http://plantuml.com/logo3.png")
+System_Ext(banking_system, "Mainframe Banking System", "Stores all of the core banking information about customers, accounts, transactions, etc.")
+
+
+
+System_Boundary(c1, "Contexto :: Internet Banking") {
+    Container(web_app, "Web Application", "Java, Spring MVC", "Delivers the static content and the Internet banking SPA", "java")
+    Container(spa, "Single-Page App", "JavaScript, Angular", "Provides all the Internet banking functionality to cutomers via their web browser", "angular")
+    Container(mobile_app, "Mobile App", "C#, Xamarin", "Provides a limited subset of the Internet banking functionality to customers via their mobile device", "dotnet")
+    ContainerDb(database, "Database", "SQL Database", "Stores user registraion information, hased auth credentials, access logs, etc.", "msql_server")
+    Container(backend_api, "API Application", "Java, Docker Container", "Provides Internet banking functionality via API", "server")
+}
+
+
+
+Rel(user, spa, "Uses", "https")
+Rel(spa, api, "Uses", "https")
+Rel_R(api, db, "Reads/Writes")
+Rel_L(api, dbP, "Reads/Writes")
+
+@enduml

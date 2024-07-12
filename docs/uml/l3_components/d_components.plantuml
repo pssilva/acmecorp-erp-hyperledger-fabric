@@ -1,0 +1,14 @@
+@startuml Level-Component-Model
+
+!include ../l2_containers/d_containers.plantuml
+
+title Nível Componente :: {{NOME_COMPONENTE}}
+
+Container_Boundary(comp, "Componente :: {{NOME_COMPONENTE}}","Componente") {
+    Container(web_app_3, "Cmponente WP 3", "Java, Spring MVC", "Delivers the static content and the Internet banking SPA", "java")
+}
+
+@enduml
+
+
+

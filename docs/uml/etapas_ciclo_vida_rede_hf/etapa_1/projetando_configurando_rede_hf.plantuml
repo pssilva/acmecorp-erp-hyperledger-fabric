@@ -1,0 +1,107 @@
+‘
+' Veja o modelo de diagrama de atividade em: https://plantuml.com/openiconic
+‘
+@startuml ProjetandoConfigurandoRedeHF
+skinparam style strictuml
+
+partition "Projetando e Configurando Uma Rede Comercial Hyperledger Fabric" {
+    start
+        :Identificar Organizações Participantes;
+        note right
+            Uma organização é um domínio
+            de segurança e uma unidade
+            de identidade e credenciais
+        end note
+        :<size:15><&document></size> Especificar Pares (Peers) de Rede;
+        note left
+            Uma organização governa
+            um ou mais pares de rede
+        end note
+        -> "Depende de um";
+
+        :<size:15><&key></size> <size:15><&people></size> :: Provedor de Serviços de Associação
+        (**Membership Service Provider – MSP**);
+        note right
+            Emitir identidades, certificados para:
+            > os pares
+            > clientes
+            > privilégios de Contrato Inteligente.
+        end note
+
+        note left
+            Serve como Autoridade
+            de Certificação (CA) <size:15><&key></size>
+        end note
+
+        :Serviço de Pedidos
+        (Ordered Service);
+        note left
+            É a base de uma rede Fabric
+            e é atribuído a seu próprio
+            conjunto de organizações
+        end note
+
+        :Configuração de Canais;
+        note right
+            Uma única rede Fabric pode gerenciar
+            vários canais, onde cada canal é
+            exposto (ou compartilhado por)
+            um subconjunto designado da rede
+        end note
+
+
+        :Atividade 07;
+
+        if (Em paralelo) then
+            -> "Alguma descrição";
+            :Atividade 05;
+        else
+            -> "outra descrição";
+            :Atividade 06;
+        endif
+            :Atividade 07;
+            :<size:15><&document></size> Especificar Pares (Peers) de Rede;
+
+
+        while (333eee)
+            :;
+        end while
+
+
+        :Atividade 04;
+
+        if (Você sabe o que fazer?) then
+            -> YES;
+            :Atividade 05;
+        else
+            -> NO;
+            :Atividade 06;
+        endif
+            :Atividade 07;
+
+           partition for-each-virtEnts: Loop XPTO {
+               if (virt_limit == unlimited) then
+                   -> YES;
+                   :Atividade 08;
+               else
+                   -> NO;
+                   :Atividade 09;
+               endif
+           }
+
+           while (Análise finalizada?)
+           -> NÃO;
+            :Atividade 10;
+            :Atividade 11;
+        endwhile
+           -> SIM;
+
+           :Atividade 11;
+           :Atividade 12;
+            note right
+                Anotação para a
+                atividade 02
+            end note
+    stop
+}
+@enduml

@@ -1,0 +1,49 @@
+‘
+' Veja o modelo de diagrama de atividade em:
+' Uso de icones => https://plantuml.com/openiconic
+‘
+@startuml DiagramaAtividadesPlantUMLModelo
+partition "Projetar uma Estrutura de Rede Hyperledger Fabric [trabalho em progresso]" {
+    start
+        :[trabalho em progresso];
+        :Atividade 01;
+        :<size:15><&briefcase></size> Atividade 02;
+        note right
+            Anotação para a
+            atividade 02
+        end note
+
+        :Atividade 03;
+        :Atividade 04;
+
+        if (Você sabe o que fazer?) then
+            -> YES;
+            :Atividade 05;
+        else
+            -> NO;
+            :Atividade 06;
+        endif
+            :Atividade 07;
+
+        partition for-each-virtEnts: Loop XPTO {
+           if (virt_limit == unlimited) then
+               -> YES;
+               :Atividade 08;
+           else
+               -> NO;
+               :Atividade 09;
+           endif
+        }
+
+        while (Análise finalizada?)
+            -> NÃO;
+            :Atividade 10;
+            :Atividade 11;
+        endwhile
+        -> SIM;
+
+        :Atividade 11;
+        :Atividade 12;
+    stop
+}
+@enduml

@@ -1,0 +1,33 @@
+'
+' Veja o modelo de diagrama de atividade em: https://plantuml.com/openiconic
+'
+
+@startuml EtapasCicloVidaRedeHF
+
+!include ../core/C4_Container.puml
+!include ../core/C4_Context.puml
+!include ../core/C4_Component.puml
+!include ../core/C4.puml
+!include ../core/C4_Deployment.puml
+
+
+| Operacionais :: Inicie os nós da Rede Blockchain |
+    start
+        :Atividade 01.01;
+
+
+| Desenvolvimento :: Desenvolva Contratos Inteligentes |
+        :Atividade 02.01;
+| Operacionais :: Ledgers de Configuração e Bootstrap (Canais) |
+        :Atividade 03.01;
+| Operacionais :: Instale e Inicialize Contratos Inteligentes |
+        :Atividade 04.01;
+| Desenvolvimento :: Desenvolva Aplicativos de Camada Superior |
+    :Atividade 05.01;
+| Operacionais :: Iniciar e Inicializar Aplicativos de Camada Superior |
+    :Atividade 06.01;
+| Tempo de Execução :: Envie Consultas e Execute Transações |
+    :Atividade 07.01;
+
+stop
+@enduml

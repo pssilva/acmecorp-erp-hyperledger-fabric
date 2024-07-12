@@ -1,0 +1,11 @@
+@startuml Level-Container-Model
+
+!include ../l1_contexts/d_context_model.plantuml
+
+title Nível Container :: {{NOME_CONTAINER}}
+
+Container_Boundary(cont, "Conteiner :: {{NOME_CONTAINER}}") {
+    Container(web_app_2, "Container WA", "Java, Spring MVC", "Delivers the static content and the Internet banking SPA", "java")
+}
+
+@enduml

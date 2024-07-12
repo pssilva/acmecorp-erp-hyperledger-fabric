@@ -1,0 +1,29 @@
+@startuml DiagramaAtividadesPlantUMLModelo
+
+partition "Diagrama de Atividade Modelo" {
+start
+    :Atividade 01;
+    :Atividade 02;
+    note right
+        Anotação para a
+        atividade 02
+    end note
+
+    :Atividade 03;
+    :Atividade 04;
+
+    if (Você sabe o que fazer?) then
+        -> YES;
+        :Atividade 05;
+    else
+        -> NO;
+        :Atividade 06;
+    endif
+        :Atividade 07;
+
+    :Atividade 08;
+    :Atividade 09;
+
+stop
+}
+@enduml

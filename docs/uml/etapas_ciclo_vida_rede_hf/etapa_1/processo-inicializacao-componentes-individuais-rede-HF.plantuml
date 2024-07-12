@@ -1,0 +1,77 @@
+
+@startuml ProcessoInicializacaoComponentes
+
+title Operacionais :: ETAPA - Inicie os nós da Rede Blockchain
+
+' Veja o modelo de diagrama de atividade em: https://plantuml.com/openiconic
+' skinparam wrapWidth 250
+' skinparam maxMessageSize 200
+' scale 0.95
+
+
+partition "Processo de Inicialização de Componentes Individuais de uma Rede Hyperledger Fabric" {
+start
+    :Verificar Arquitetura do Aplicativo;
+    note right
+       Ter em mãos a Arquitetura do aplicativo
+       comercial que gostaríamos de construir
+    end note
+
+    :Modelar Cenário de Negócios;
+    :<size:15><&briefcase></size> Modelar o Processo;
+    note left
+        O Processo aqui é no contexto
+        do cenário em questão!
+    end note
+    :Modelar o Domínio (DDD);
+
+    :Definir YAML da Organização;
+    :Definir YAML dos Pares (Peers);
+    :Criando Todos os Artefatos do Canal;
+    note right
+        temos que configuração de canal, configtx.yaml
+    end note
+
+    if (Você sabe o que fazer?) then
+        -> YES;
+        :Atividade 05;
+    else
+        -> NO;
+        :Atividade 06;
+    endif
+        :Atividade 07;
+
+    partition for-each-virtEnts: Loop XPTO {
+        if (virt_limit == unlimited) then
+            -> YES;
+            :Atividade 08;
+        else
+            -> NO;
+            :Atividade 09;
+        endif
+    }
+
+    while (Análise finalizada?)
+    -> NÃO;
+	:Atividade 10;
+	:Atividade 11;
+	endwhile
+    -> SIM;
+
+    :Atividade 11;
+    :Atividade 12;
+
+
+    if (Você sabe o que fazer?) then
+        -> YES;
+        :===RENDERING===;
+    else
+        -> NO;
+        :Atividade 06;
+    endif
+        :Atividade 07;
+
+stop
+}
+
+@enduml
