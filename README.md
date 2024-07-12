@@ -10,7 +10,7 @@ POC de um Lite ERP com arquitetura Hyperledger Fabric Blockchain.
 <p><img src="docs/imgs/acme-network.svg" alt="T2Ti ERP 3.0" height="100%" width="100%"></p>
 
 
-Objetivo é focar no uso prático real dos conceitos abstratos de um [desenvolvedor Blockchain fullstack]() com foco em [Contratos Inteligentes]() em soluções com arquitetura Blockchain usando os [Projetos Hyperledger Framework](https://www.hyperledger.org/projects) Blockchain e com isso implementar contratos inteligentes para os subprojetos: 
+Objetivo é focar no uso prático real dos conceitos abstratos de um [desenvolvedor Blockchain fullstack]() com foco em [Contratos Inteligentes](#cap-6-Nitin-Gaur) em soluções com arquitetura Blockchain usando os [Projetos Hyperledger Framework](https://www.hyperledger.org/projects) Blockchain e com isso implementar contratos inteligentes para os subprojetos: 
 
  - [Hyperledger Fabric](https://www.hyperledger.org/projects/fabric)
  - [Hyperledger Besu](https://www.hyperledger.org/projects/besu)
@@ -82,6 +82,10 @@ Segue abaixo (não se limita) os objetivos do presente projeto:
 - [ ] Indexação completa do vídeo longo: 
     - [ ] [VIDEO LONGO 10307 – 03.04.07.64.04.06 – Boas Práticas para Composição de Frameworks Hyperledger Fabric em Redes Blockchain – Hyperledger Foundation – Questões](docs/indexacoes/VIDEO%20LONGO%2010307%20–%2003.04.07.64.04.06%20–%20Boas%20Práticas%20para%20Composição%20de%20Frameworks%20Hyperledger%20Fabric%20em%20Redes%20Blockchain%20–%20Hyperledger%20Foundation%20–%20Questões.pdf) (mais detalhes veja [aqui](../docs/indexacoes/README.md))
     - [ ] [VIDEO LONGO 22038 – 03.04.07.64 – Mercado de Trabalho em Blockchain - Hyperledger Foundation – Questões](docs/indexacoes/VIDEO%20LONGO%2022038%20–%2003.04.07.64%20–%20Mercado%20de%20Trabalho%20em%20Blockchain%20-%20Hyperledger%20Foundation%20–%20Questões.pdf) (mais detalhes veja [aqui](../docs/indexacoes/README.md))
+- [ ] [Desenvolver Contratos Inteligentes](#cap-6-Nitin-Gaur)
+- [ ] [Projetando transações de contratos inteligentes e estruturas de dados Ledger](#cap-5-Nitin-Gaur)
+- [ ] [Desenvolver Aplicativos com Arquitetura Blockchain](#cap-7-Nitin-Gaur)
+
 - [ ] [Metodologia Básica de Análise Exploratória](#GOODRICH-Michael-T), aplicar técncia para análise explorativa (engenharia reversa) nos projetos: 
   - [ ] [Hyperledger Fabric Samples (fabric-samples)](https://github.com/hyperledger/fabric-samples)
   - [ ] [Fabric Chaincode Java (fabric-chaincode-java)](https://github.com/hyperledger/fabric-chaincode-java)
@@ -142,7 +146,7 @@ Seque abaixo as referências bibliográficas usadas no presente projeto:
 ---
 
 <p align="justify">
-[<a id="cap-5-Nitin-Gaur">Nitin Gaur (Author), Luc Desrosiers (Author), Venkatraman Ramakrishna (Author)</a>] et al. Capítulo 5 ■ Projetando transações de contratos inteligentes e estruturas de dados contábeis. In:______ Blockchain with Hyperledger Fabric, Second Edition: Build decentralized applications using Hyperledger Fabric 2 2nd ed. Edition. Cidade da publicação: Publisher : Packt Publishing; 2nd ed. edition (November 18, 2020). 756 pages. (Nome da série e/ou coleção, 978-1839218750). Disponível em: < https://a.co/d/0hvdoivW >. Acesso em: 11 jul. 2024.
+[<a id="cap-5-Nitin-Gaur">Nitin Gaur (Author), Luc Desrosiers (Author), Venkatraman Ramakrishna (Author)</a>] et al. Capítulo 5 ■ Projetando transações de contratos inteligentes e estruturas de dados Ledger. In:______ Blockchain with Hyperledger Fabric, Second Edition: Build decentralized applications using Hyperledger Fabric 2 2nd ed. Edition. Cidade da publicação: Publisher : Packt Publishing; 2nd ed. edition (November 18, 2020). 756 pages. (Nome da série e/ou coleção, 978-1839218750). Disponível em: < https://a.co/d/0hvdoivW >. Acesso em: 11 jul. 2024.
 </p>
 
 ---
