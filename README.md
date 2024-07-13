@@ -4,8 +4,7 @@ Se trata de um projeto prático prova de conceito - POC para deixar pegadas digi
 
 ## Visão do Projeto
 
-POC de um Lite ERP com arquitetura Hyperledger Fabric Blockchain.
-
+POC de um [Lite ERP](docs/ERP/README.md) com arquitetura Hyperledger Fabric Blockchain.
 
 <p><img src="docs/imgs/acme-network.svg" alt="T2Ti ERP 3.0" height="100%" width="100%"></p>
 
