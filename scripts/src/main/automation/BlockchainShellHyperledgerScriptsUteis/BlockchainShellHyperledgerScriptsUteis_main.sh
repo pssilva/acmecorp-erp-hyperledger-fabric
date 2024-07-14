@@ -194,14 +194,36 @@ export -f BlockchainShellHyperledgerScriptsUteis.installToolJavaComJDK
 #
 #########################################################
 function BlockchainShellHyperledgerScriptsUteis.installAllTools(){
-
+	
+	BlockchainShellHyperledgerScriptsUteis.installPreRequisito
   BlockchainShellHyperledgerScriptsUteis.installToolSDKMAN
   BlockchainShellHyperledgerScriptsUteis.installToolJavaComJDK "17.0.11-amzn"
 	BlockchainShellHyperledgerScriptsUteis.installGoLang "1.20.3"
+	BlockchainShellHyperledgerScriptsUteis.installDocker
+	BlockchainShellHyperledgerScriptsUteis.installCloneHF
 
 }
 
 export -f BlockchainShellHyperledgerScriptsUteis.installAllTools
+#########################################################
+
+
+#########################################################
+#
+# Describe: Gerar as ferramentas e imagens Dockers necessários para o Hyperledger Fabric
+#
+# Referencia:
+#
+#########################################################
+function BlockchainShellHyperledgerScriptsUteis.makeAllTools(){
+	
+	BlockchainShellHyperledgerScriptsUteis.gerarImagemDockerHF
+	BlockchainShellHyperledgerScriptsUteis.gerarFerramentasHF
+	BlockchainShellHyperledgerScriptsUteis.gerarAutoridadeCertificadoraHF
+	
+}
+
+export -f BlockchainShellHyperledgerScriptsUteis.makeAllTools
 #########################################################
 
 #########################################################
@@ -251,19 +273,7 @@ function BlockchainShellHyperledgerScriptsUteis.installGoLang(){
 	#########################################################
 	# PASSO NN: Configurar Profile e Variável PATH
 	#########################################################
-	export PROFILE_CONFIG=$(cat <<EOF
-##############################################
-# Ferramentas do Hyperledger Fabric
-##############################################
-export GOPATH="/opt/go-fabric/go"
-export PATH="\${PATH}:\${GOPATH}/bin"
-export HYPERLEDGER_FABRIC_HOME="\${GOPATH}/src/github.com/hyperledger/fabric"
-export PATH="\${PATH}:\${HYPERLEDGER_FABRIC_HOME}/build/bin"
-##############################################
-EOF
-	);
-
-	echo -e "${PROFILE_CONFIG}" >> "${HOME}/.bash_profile"
+	echo -e "${PROFILE_CONFIG_GOLANG}" >> "${HOME}/.bash_profile"
 	#########################################################
 
 	source ~/.bash_profile
@@ -273,6 +283,150 @@ EOF
 }
 
 export -f BlockchainShellHyperledgerScriptsUteis.installGoLang
+#########################################################
+
+#########################################################
+#
+# Describe: Instalação dos Pré-requisitos necessários
+#
+# Referencia: 
+#
+#########################################################
+function BlockchainShellHyperledgerScriptsUteis.installPreRequisito(){
+
+	sudo dnf -y check-update
+	sudo dnf -y upgrade
+
+	sudo dnf -y groupinstall 'Development Tools'
+	sudo dnf -y group install "C Development Tools and Libraries"
+	sudo dnf -y groupinstall @development-tools @development-libraries
+	sudo dnf install -y make automake gcc gcc-c++ kernel-devel
+	sudo dnf install -y git make cmake curl unzip g++ libtool jq
+
+}
+
+export -f BlockchainShellHyperledgerScriptsUteis.installPreRequisito
+#########################################################
+
+#########################################################
+#
+# Describe: Instalação do Docker e o composer
+#
+# Referencia: 
+#
+#########################################################
+function BlockchainShellHyperledgerScriptsUteis.installDocker(){
+
+	sudo dnf install -y docker-compose
+	sudo dnf install -y docker-compose-plugin
+	docker compose version
+
+}
+
+export -f BlockchainShellHyperledgerScriptsUteis.installDocker
+#########################################################
+
+#########################################################
+#
+# Describe: Instalação do Hyperledger Fabric clonando na pasta do GoLang
+# 
+# NOTA: Tenha em mente ou certifique-se de que o fabric seja baixado ou 
+#       vinculado simbolicamente da pasta $GOPATH/src/github.com/hyperledger/. 
+#       Se o código-fonte do Fabric não estiver em GOPATH, as etapas de 
+#       construção subsequentes, que dependem da compilação Go, falharão, 
+#       pois as bibliotecas necessárias não estarão disponíveis em seus 
+#       caminhos esperados.
+#
+# Referencia: 
+#
+#########################################################
+function BlockchainShellHyperledgerScriptsUteis.installCloneHF(){
+	
+	#########################################################
+	# PASSO NN: Clonar o Repositório Hyperledger Fabric
+	#########################################################
+	export GOPATH="/opt/go-fabric/go"
+	export HYPERLEDGER_PATH="${GOPATH}/src/github.com/hyperledger/"
+	
+	if ([ ! -d "${HYPERLEDGER_PATH}" ]) then
+		mkdir -p "${HYPERLEDGER_PATH}"
+	fi
+
+	cd "${HYPERLEDGER_PATH}"
+	git clone https://github.com/hyperledger/fabric.git -b release-2.2
+	#########################################################
+
+	#########################################################
+	# PASSO NN: Configurar Profile e Variável PATH
+	#########################################################
+	export HYPERLEDGER_FABRIC_HOME="${GOPATH}/src/github.com/hyperledger/fabric"
+	echo -e "${PROFILE_CONFIG_HF}" >> "${HOME}/.bash_profile"
+	source ~/.bash_profile
+	#########################################################
+
+}
+
+export -f BlockchainShellHyperledgerScriptsUteis.installCloneHF
+#########################################################
+
+#########################################################
+#
+# Describe: Gerar Imagem Docker Hyperledger Fabric
+# 
+#
+# Referencia: 
+#
+#########################################################
+function BlockchainShellHyperledgerScriptsUteis.gerarImagemDockerHF(){
+
+	export GOPATH="/opt/go-fabric/go"
+	export HYPERLEDGER_FABRIC_HOME="${GOPATH}/src/github.com/hyperledger/fabric"
+	cd "${HYPERLEDGER_FABRIC_HOME}"
+	make docker
+
+}
+
+export -f BlockchainShellHyperledgerScriptsUteis.gerarImagemDockerHF
+#########################################################
+
+#########################################################
+#
+# Describe: Gerar as Ferramentas do próprio Hyperledger Fabric
+# 
+#
+# Referencia: 
+#
+#########################################################
+function BlockchainShellHyperledgerScriptsUteis.gerarFerramentasHF(){
+
+	export GOPATH="/opt/go-fabric/go"
+	export HYPERLEDGER_FABRIC_HOME="${GOPATH}/src/github.com/hyperledger/fabric"
+	cd "${HYPERLEDGER_FABRIC_HOME}"
+	make configtxgen cryptogen
+
+}
+
+export -f BlockchainShellHyperledgerScriptsUteis.gerarFerramentasHF
+#########################################################
+
+#########################################################
+#
+# Describe: Gerar a Autoridade Certificadora do próprio Hyperledger Fabric e assinar os 
+#           provedor de serviços de associação (Membership Services Provider – MSP)
+#
+# Referencia: 
+#
+#########################################################
+function BlockchainShellHyperledgerScriptsUteis.gerarAutoridadeCertificadoraHF(){
+
+	export GOPATH="/opt/go-fabric/go"
+	cd "${GOPATH}/src/github.com/hyperledger/"
+	git clone https://github.com/hyperledger/fabric-ca.git -b release-1.4
+	export HYPERLEDGER_FABRIC_HOME_CA="${GOPATH}/src/github.com/hyperledger/fabric-ca"
+
+}
+
+export -f BlockchainShellHyperledgerScriptsUteis.gerarAutoridadeCertificadoraHF
 #########################################################
 
 #########################################################
