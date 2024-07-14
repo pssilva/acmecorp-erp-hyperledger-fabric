@@ -86,7 +86,7 @@ Segue abaixo (não se limita) os objetivos do presente projeto:
 - [X] ~~Formatando documentação README.md~~
 - [ ] Scripts Automação
   - [X] ~~BlockchainShellHyperledgerScriptsUteis.installPreRequisito~~
-  - [X] ~~BlockchainShellHyperledgerScriptsUteis.installGoLang ~~
+  - [X] ~~BlockchainShellHyperledgerScriptsUteis.installGoLang~~
   - [X] ~~BlockchainShellHyperledgerScriptsUteis.installDocker~~
   - [X] ~~BlockchainShellHyperledgerScriptsUteis.installCloneHF~~
 - [ ] Indexação completa do vídeo longo: 
