@@ -24,7 +24,13 @@ Procuro evidência as proficiências nas seguintes habilidades técnicas:
 - [Metodologia Básica de Análise de Algoritmos](#GOODRICH-Michael-T)
 - Técnicas em [Análise Código-fonte Legados](#FEATHERS-michael);
 - Técnicas em [Refatoração Código-fonte Legados](#FEATHERS-michael);
-- Implementar Soluções usando algoritmos Reutilizáveis
+- Implementar Soluções usando algoritmos Reutilizáveis e Regras de Negócio em [Contratos Inteligentes](#cap-6-Nitin-Gaur) e os respectivos [Aplicativos da Camada de Serviços](#cap-7-Nitin-Gaur) para consumir e gerar transações no contratos inteligentes
+- [Preparando o Cenário Com Um Cenário de Negócios](#cap-4-Nitin-Gaur)
+  - Identificar o [Cenário de Negócios e Caso de Uso](#cap-4-Nitin-Gaur) de um [Lite ERP](docs/ERP/README.md)
+  - Identificar o [Fluxo de Trabalho do Processo Compartilhado](#cap-4-Nitin-Gaur) entre os módulos de um [Lite ERP](docs/ERP/README.md)
+- [Projetando transações de contratos inteligentes e estruturas de dados Ledger](#cap-5-Nitin-Gaur)
+- [Desenvolver Contratos Inteligentes](#cap-6-Nitin-Gaur)
+- [Desenvolver Aplicativos com Arquitetura Blockchain](#cap-7-Nitin-Gaur)
 
 
 Projeto inicializado com o [`Scripts de automação próprio`]().
