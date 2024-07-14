@@ -24,7 +24,7 @@ Procuro evidência as proficiências nas seguintes habilidades técnicas:
 - [Metodologia Básica de Análise de Algoritmos](#GOODRICH-Michael-T)
 - Técnicas em [Análise Código-fonte Legados](#FEATHERS-michael);
 - Técnicas em [Refatoração Código-fonte Legados](#FEATHERS-michael);
-- Implementar Soluções usando algoritmos Reutilizáveis e Regras de Negócio em [Contratos Inteligentes](#cap-6-Nitin-Gaur) e os respectivos [Aplicativos da Camada de Serviços](#cap-7-Nitin-Gaur) para consumir e gerar transações no contratos inteligentes
+- Implementar Soluções usando algoritmos Reutilizáveis e Regras de Negócio em [Contratos Inteligentes](#cap-6-Nitin-Gaur) e os respectivos [Aplicativos da Camada de Serviços](#cap-7-Nitin-Gaur) para consumir e gerar transações nos contratos inteligentes
 - [Preparando o Cenário Com Um Cenário de Negócios](#cap-4-Nitin-Gaur)
   - Identificar o [Cenário de Negócios e Caso de Uso](#cap-4-Nitin-Gaur) de um [Lite ERP](docs/ERP/README.md)
   - Identificar o [Fluxo de Trabalho do Processo Compartilhado](#cap-4-Nitin-Gaur) entre os módulos de um [Lite ERP](docs/ERP/README.md)
@@ -176,8 +176,6 @@ Seque abaixo as referências bibliográficas usadas no presente projeto:
 <p align="justify">
 [<a id="cap-9-Nitin-Gaur">Nitin Gaur (Author), Luc Desrosiers (Author), Venkatraman Ramakrishna (Author)</a>] et al. <a href="https://a.co/d/0hvdoivW">Capítulo ■ 9. Operação de Rede e Construção de Aplicativos Distribuídos</a>. In:______ Blockchain with Hyperledger Fabric, Second Edition: Build decentralized applications using Hyperledger Fabric 2 2nd ed. Edition. Cidade da publicação: Publisher : Packt Publishing; 2nd ed. edition (November 18, 2020). 756 pages. (Nome da série e/ou coleção, 978-1839218750). Disponível em: < <a href="https://a.co/d/0hvdoivW">https://a.co/d/0hvdoivW </a> >. Acesso em: 11 jul. 2024.
 </p>
-
----
 
 ---
 
