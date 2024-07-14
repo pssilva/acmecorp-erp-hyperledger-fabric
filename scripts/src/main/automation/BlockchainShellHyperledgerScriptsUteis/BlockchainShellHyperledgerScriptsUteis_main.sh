@@ -197,10 +197,82 @@ function BlockchainShellHyperledgerScriptsUteis.installAllTools(){
 
   BlockchainShellHyperledgerScriptsUteis.installToolSDKMAN
   BlockchainShellHyperledgerScriptsUteis.installToolJavaComJDK "17.0.11-amzn"
+	BlockchainShellHyperledgerScriptsUteis.installGoLang "1.20.3"
 
 }
 
 export -f BlockchainShellHyperledgerScriptsUteis.installAllTools
+#########################################################
+
+#########################################################
+#
+# Describe: Instalação de todas as ferramentas
+#
+# Referencia: 
+#
+#########################################################
+function BlockchainShellHyperledgerScriptsUteis.installGoLang(){
+
+	export GOLANG_VERSION="$1"
+
+	if [[ "${GOLANG_VERSION}" == "" ]]
+	then
+		export GOLANG_VERSION="1.20.3"
+	fi
+		
+	#########################################################
+	# PASSO NN: Baixar GoLang
+	#########################################################
+	cd "$HOME/Downloads"
+	wget "https://go.dev/dl/go${GOLANG_VERSION}.linux-amd64.tar.gz"
+	#########################################################
+
+	#########################################################
+	# PASSO NN: Configurar GoLang
+	#########################################################
+	export GO_FABLIC_PATH="/opt/go-fabric"
+	sudo mkdir -p "${GO_FABLIC_PATH}"
+	sudo chmod -Rf 0777 "${GO_FABLIC_PATH}"
+	export GOPATH="${GO_FABLIC_PATH}/go"
+	
+	if ([ -d "/usr/local/go-fabric" ]) then
+		sudo rm -rf "/usr/local/go-fabric"
+	fi
+	
+	tar -C ${GO_FABLIC_PATH} -xzf "go${GOLANG_VERSION}.linux-amd64.tar.gz"
+	
+	if ([ -f "/usr/bin/go" ]) then
+		sudo mv -rf /usr/bin/go /usr/bin/go-bkp
+	fi
+	
+	sudo ln -s -t "/usr/bin" "${GOPATH}/bin/go"
+	#########################################################
+
+	#########################################################
+	# PASSO NN: Configurar Profile e Variável PATH
+	#########################################################
+	export PROFILE_CONFIG=$(cat <<EOF
+##############################################
+# Ferramentas do Hyperledger Fabric
+##############################################
+export GOPATH="/opt/go-fabric/go"
+export PATH="\${PATH}:\${GOPATH}/bin"
+export HYPERLEDGER_FABRIC_HOME="\${GOPATH}/src/github.com/hyperledger/fabric"
+export PATH="\${PATH}:\${HYPERLEDGER_FABRIC_HOME}/build/bin"
+##############################################
+EOF
+	);
+
+	echo -e "${PROFILE_CONFIG}" >> "${HOME}/.bash_profile"
+	#########################################################
+
+	source ~/.bash_profile
+
+	go version
+
+}
+
+export -f BlockchainShellHyperledgerScriptsUteis.installGoLang
 #########################################################
 
 #########################################################
