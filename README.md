@@ -82,25 +82,30 @@ Segue abaixo (não se limita) os objetivos do presente projeto:
     - [ ] [VIDEO LONGO 15728 – 03.04.07.64.04 – Como Operar e Usar Hyperledger Besu em Redes Públicas e Privadas - Hyperledger Foundation  – Questões](docs/indexacoes/VIDEO%20LONGO%2015728%20–%2003.04.07.64.04%20–%20Como%20Operar%20e%20Usar%20Hyperledger%20Besu%20em%20Redes%20Públicas%20e%20Privadas%20-%20Hyperledger%20Foundation%20%20–%20Questões.pdf) (mais detalhes veja [aqui](docs/indexacoes/README.md))
     - [ ] [VIDEO LONGO 10307 – 03.04.07.64.04.06 – Boas Práticas para Composição de Frameworks Hyperledger Fabric em Redes Blockchain – Hyperledger Foundation – Questões](docs/indexacoes/VIDEO%20LONGO%2010307%20–%2003.04.07.64.04.06%20–%20Boas%20Práticas%20para%20Composição%20de%20Frameworks%20Hyperledger%20Fabric%20em%20Redes%20Blockchain%20–%20Hyperledger%20Foundation%20–%20Questões.pdf) (mais detalhes veja [aqui](docs/indexacoes/README.md))
     - [ ] [VIDEO LONGO 22038 – 03.04.07.64 – Mercado de Trabalho em Blockchain - Hyperledger Foundation – Questões](docs/indexacoes/VIDEO%20LONGO%2022038%20–%2003.04.07.64%20–%20Mercado%20de%20Trabalho%20em%20Blockchain%20-%20Hyperledger%20Foundation%20–%20Questões.pdf) (mais detalhes veja [aqui](docs/indexacoes/README.md))
-- [ ] [Desenvolver Contratos Inteligentes](#cap-6-Nitin-Gaur)
+- [ ] [Preparando o Cenário Com Um Cenário de Negócios](#cap-4-Nitin-Gaur)
+  - [ ] Identificar o [Cenário de Negócios e Caso de Uso](#cap-4-Nitin-Gaur) de um [Lite ERP](docs/ERP/README.md)
+  - [ ] Identificar o [Fluxo de Trabalho do Processo Compartilhado](#cap-4-Nitin-Gaur) entre os módulos de um [Lite ERP](docs/ERP/README.md)
 - [ ] [Projetando transações de contratos inteligentes e estruturas de dados Ledger](#cap-5-Nitin-Gaur)
+- [ ] [Desenvolver Contratos Inteligentes](#cap-6-Nitin-Gaur)
 - [ ] [Desenvolver Aplicativos com Arquitetura Blockchain](#cap-7-Nitin-Gaur)
-
 - [ ] [Metodologia Básica de Análise Exploratória](#GOODRICH-Michael-T), aplicar técncia para análise explorativa (engenharia reversa) nos projetos: 
   - [ ] [Hyperledger Fabric Samples (fabric-samples)](https://github.com/hyperledger/fabric-samples)
   - [ ] [Fabric Chaincode Java (fabric-chaincode-java)](https://github.com/hyperledger/fabric-chaincode-java)
   - [ ] [Fabric Chaincode Go (fabric-chaincode-go)](https://github.com/hyperledger/fabric-chaincode-go)
   - [ ] [Fabric Chaincode Node.js (fabric-chaincode-node)](https://github.com/hyperledger/fabric-chaincode-node)
-
   - [ ] [Hyperledger Fabric (fabric)](https://github.com/hyperledger/fabric)
   - [ ] [Trade Network (trade-network)](https://github.com/HyperledgerHandsOn/trade-network)
   - [ ] [Trade Contracts (trade-contracts)](https://github.com/HyperledgerHandsOn/trade-contracts)
+  - [ ] [Blockchain VS Code Extension (blockchain-vscode-extension)](https://github.com/pssilva/blockchain-vscode-extension)
 - [ ] [Implementar Testes (TDD)](#GONZALEZ_Javier_cap_11): Técnica Red-Green-Refact
 - [ ] Descrição sucinta [TRABALHO EM PROGRESSO]
 
 ### Atividades - DevOps
 
-- [ ] Implementação dos Pipelines CI/CD de Implatação num Provedor de Nuvem (mais detalhes veja [aqui](docs/provedores_nuvem/README.md)).
+- [ ] Implementação dos Pipelines CI/CD [Operação de Rede e Construção de Aplicativos Distribuídos](cap-9-Nitin-Gaur):
+  - [ ] Operações – Configuração de Rede e Inicialização
+  - [ ] Etapas do Ciclo de Vida de uma Rede Fabric
+- [ ] Implatação num Provedor de Nuvem (mais detalhes veja [aqui](docs/provedores_nuvem/README.md)).
 - [ ] Implementar restrições de Commit no Git: vinculado com o ID de regra de negócio e ID do checklist de validação das entragas de funcionalidades (mais detalhes [aqui](docs/checklists/README.md))
 - [ ] Implementar Dockerfiles para Kubernetes
 - [ ] Colocar em prática o Desenvolvimento Orientado a Interface onde se deve desacoplar a aplicação do procedor de nuvem (Princípio da Segregação de Interface (ISP) - SOLID) (mais detalhes veja [aqui](docs/provedores_nuvem/README.md))
@@ -161,6 +166,13 @@ Seque abaixo as referências bibliográficas usadas no presente projeto:
 [<a id="cap-7-Nitin-Gaur">Nitin Gaur (Author), Luc Desrosiers (Author), Venkatraman Ramakrishna (Author)</a>] et al. <a href="https://a.co/d/0hvdoivW">Capítulo 7 ■ Desenvolvendo Aplicativos</a>. In:______ Blockchain with Hyperledger Fabric, Second Edition: Build decentralized applications using Hyperledger Fabric 2 2nd ed. Edition. Cidade da publicação: Publisher : Packt Publishing; 2nd ed. edition (November 18, 2020). 756 pages. (Nome da série e/ou coleção, 978-1839218750). Disponível em: < <a href="https://a.co/d/0hvdoivW">https://a.co/d/0hvdoivW </a> >. Acesso em: 11 jul. 2024.
 </p>
 
+---
+
+<p align="justify">
+[<a id="cap-9-Nitin-Gaur">Nitin Gaur (Author), Luc Desrosiers (Author), Venkatraman Ramakrishna (Author)</a>] et al. <a href="https://a.co/d/0hvdoivW">Capítulo ■ 9. Operação de Rede e Construção de Aplicativos Distribuídos</a>. In:______ Blockchain with Hyperledger Fabric, Second Edition: Build decentralized applications using Hyperledger Fabric 2 2nd ed. Edition. Cidade da publicação: Publisher : Packt Publishing; 2nd ed. edition (November 18, 2020). 756 pages. (Nome da série e/ou coleção, 978-1839218750). Disponível em: < <a href="https://a.co/d/0hvdoivW">https://a.co/d/0hvdoivW </a> >. Acesso em: 11 jul. 2024.
+</p>
+
+---
 
 ---
 
