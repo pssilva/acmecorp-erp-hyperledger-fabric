@@ -6,7 +6,7 @@ Se trata de um projeto prático prova de conceito - POC para deixar pegadas digi
 
 POC de um [Lite ERP](docs/ERP/README.md) com arquitetura Hyperledger Fabric Blockchain.
 
-<p><img src="docs/imgs/acme-network.svg" alt="T2Ti ERP 3.0" height="100%" width="100%"></p>
+<p><img src="docs/imgs/acme-network.png" alt="T2Ti ERP 3.0" height="100%" width="100%"></p>
 
 
 Objetivo é focar no uso prático real dos conceitos abstratos de um [desenvolvedor Blockchain fullstack]() com foco em [Contratos Inteligentes](#cap-6-Nitin-Gaur) em soluções com arquitetura Blockchain usando os [Projetos Hyperledger Framework](https://www.hyperledger.org/projects) Blockchain e com isso implementar contratos inteligentes para os subprojetos: 
