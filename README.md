@@ -160,6 +160,12 @@ Seque abaixo as referências bibliográficas usadas no presente projeto:
 ---
 
 <p align="justify">
+[<a id="Nitin-Gaur">FOWLER, Martin , with contributions by Kent Beck. Refactoring: Improving the Design of Existing Code</a>]. Second Edition 2 Ed. Editora: Addison-Wesley Professional; 2nd ed. edição (19 novembro 2018) Cidade da publicação: Copyright © 2019 Pearson Education, Inc. 448 páginas. (Nome da série e/ou coleção, ISBN-13: 978-0-13-475759-9, ISBN-10: 0-13-475759-9). Disponível em: < <a href="https://a.co/d/0hvdoivW">https://a.co/d/8Yd4ysB</a> >. Acesso em: 18 jul. 2024.
+</p>
+
+---
+
+<p align="justify">
 [<a id="Nitin-Gaur">Nitin Gaur (Author), Luc Desrosiers (Author), Venkatraman Ramakrishna (Author)</a>] et al. Blockchain with Hyperledger Fabric, Second Edition: Build decentralized applications using Hyperledger Fabric 2 2nd ed. Edition. Cidade da publicação: Publisher : Packt Publishing; 2nd ed. edition (November 18, 2020). 756 pages. (Nome da série e/ou coleção, 978-1839218750). Disponível em: < <a href="https://a.co/d/0hvdoivW">https://a.co/d/0hvdoivW</a> >. Acesso em: 11 jul. 2024.
 </p>
 
