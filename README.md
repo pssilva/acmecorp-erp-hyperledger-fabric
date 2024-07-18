@@ -84,6 +84,7 @@ Aqui temos uma lista do que idenficamos com status de pendente:
 Segue abaixo (não se limita) os objetivos do presente projeto:
 
 - [X] ~~Formatando documentação README.md~~
+- [X] ~~Documentação Elaboração do Diagrama de Atividade da Análise Exploratória Genérico.~~
 - [ ] Scripts Automação
   - [X] ~~BlockchainShellHyperledgerScriptsUteis.installPreRequisito~~
   - [X] ~~BlockchainShellHyperledgerScriptsUteis.installGoLang~~
@@ -102,7 +103,7 @@ Segue abaixo (não se limita) os objetivos do presente projeto:
 - [ ] [Projetando transações de contratos inteligentes e estruturas de dados Ledger](#cap-5-Nitin-Gaur)
 - [ ] [Desenvolver Contratos Inteligentes](#cap-6-Nitin-Gaur)
 - [ ] [Desenvolver Aplicativos com Arquitetura Blockchain](#cap-7-Nitin-Gaur)
-- [ ] [Metodologia Básica de Análise Exploratória](#GOODRICH-Michael-T), aplicar técncia para análise explorativa (engenharia reversa) nos projetos: 
+- [ ] [Metodologia Básica de Análise Exploratória](#GOODRICH-Michael-T), aplicar técncia para [análise explorativa (engenharia reversa)](#da-analise-exploratoria-repo) nos projetos: 
   - [ ] [Hyperledger Fabric Samples (fabric-samples)](https://github.com/hyperledger/fabric-samples)
   - [ ] [Fabric Chaincode Java (fabric-chaincode-java)](https://github.com/hyperledger/fabric-chaincode-java)
   - [ ] [Fabric Chaincode Go (fabric-chaincode-go)](https://github.com/hyperledger/fabric-chaincode-go)
@@ -141,6 +142,12 @@ Segue abaixo (não se limita) os objetivos do presente projeto:
 Tendo em mente que sempre buscamos melhorar o protocolo de trabalho operacinal do dia a dia usando empirismo (colocar realmente em prática os conheicmentos abstratos):
 
 <img src="docs/imgs/pdca.png" alt="PDCA: Aplicar na prática o empirismo" title="PDCA" style="width:475px;"/>
+
+--- 
+
+<a href="da-analise-exploratoria-repo">
+<img src="docs/imgs/DA - Análise de Repositório Genárico.drawio.png" alt="Diagrama: Documentação Elaboração do Diagrama de Atividade da Análise Exploratória Genérico" title="Documentação Elaboração do Diagrama de Atividade da Análise Exploratória Genérico"/>
+</a>
 
 ---
 
