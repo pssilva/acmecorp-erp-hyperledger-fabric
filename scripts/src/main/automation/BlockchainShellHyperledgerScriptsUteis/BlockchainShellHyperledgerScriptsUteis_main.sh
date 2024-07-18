@@ -290,6 +290,7 @@ export -f BlockchainShellHyperledgerScriptsUteis.installGoLang
 # Describe: Instalação dos Pré-requisitos necessários
 #
 # Referencia: 
+# @see: https://hyperledger-fabric.readthedocs.io/en/latest/prereqs.html#linux-ubuntu-debian-based-distro
 #
 #########################################################
 function BlockchainShellHyperledgerScriptsUteis.installPreRequisito(){
