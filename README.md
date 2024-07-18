@@ -146,7 +146,7 @@ Tendo em mente que sempre buscamos melhorar o protocolo de trabalho operacinal d
 --- 
 
 <a href="da-analise-exploratoria-repo">
-<img src="docs/imgs/DA - Análise de Repositório Genárico.drawio.png" alt="Diagrama: Documentação Elaboração do Diagrama de Atividade da Análise Exploratória Genérico" title="Documentação Elaboração do Diagrama de Atividade da Análise Exploratória Genérico"/>
+<img src="docs/imgs/DA - Análise de Repositório Genárico.drawio.png" alt="Diagrama: Documentação Elaboração do Diagrama de Atividade da Análise Exploratória Genérico" title="Documentação: Processo Genérico: Atividades da Análise Exploratória de um Repositório"/>
 </a>
 
 ---
