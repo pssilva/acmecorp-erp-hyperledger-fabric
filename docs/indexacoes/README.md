@@ -31,14 +31,14 @@ Até o momento, aplicáveis ao presente projeto, temos as seguintes indexações
 
 Tendo em mente que sempre buscamos melhorar o protocolo de trabalho operacional do dia a dia usando empirismo (colocar realmente em prática os conhecimentos abstratos).
 
-NOTA: Não se trata de ficar ditando regras no trabalho da equipe, mas sim melhorar o meu operacional pessoal de trabalho e com isso agregar valor melhorando a perfomance:
+NOTA: Não se trata de ficar ditando regras no trabalho da equipe, mas sim melhorar o [meu operacional pessoal de trabalho](#da-analise-exploratoria) e com isso agregar valor melhorando a perfomance:
 
 <img src="../../docs/imgs/pdca.png" alt="PDCA: Aplicar na prática o empirismo" title="PDCA" style="width:475px;"/>
  
 
 --- 
 
-<a href="#FOWLER-Martin">
+<a href="#FOWLER-Martin" id="da-analise-exploratoria">
 <img src="../../docs/imgs/DA - Análise de Repositório Genárico.drawio.png" alt="Diagrama: Documentação Elaboração do Diagrama de Atividade da Análise Exploratória Genérico" title="Documentação: Processo Genérico: Atividades da Análise Exploratória de um Repositório"/>
 </a>
 
