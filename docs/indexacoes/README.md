@@ -4,7 +4,7 @@ Aplicando efetivamente na prática a mentalidade de aprendizagem continuada (#li
 
 Indexação de vídeos é uma estratégia para se aplicar técnicas de aprendizagem acelera (revisão espaçada). Onde se corta um vídeo de orientações técnicas. Relacionando um momento do vídeo com um Tema (uma palavra-chave) onde se explica um conceito ou técnica de codificação.
 
-_**IMPORTANTE**_: Já sei que existem ferramentas de Inteligências Artificiais que já fazem a transcrição (vídeo para texto)! Mas o objetivo de eu priorizar e fazer manualmente é realmente ter contato com o conteúdo e realmente absorver o conhecimento e com isso em mente criar os planos de ação necessários para colocar em prática e elaborar em projetos prova de conceito - POC.
+_**IMPORTANTE**_: Já sabemos que existem ferramentas de Inteligências Artificiais que realizam a transcrição (vídeo para texto)! Mas o objetivo em priorizarmos e fazermos manualmente é realmente ter contato com o conteúdo e realmente absorver o conhecimento e com isso em mente criar os planos de ação necessários para colocar em prática e elaborar em projetos prova de conceito - POC.
 
 E depois se relacionar a indexação com um questionário de contexto onde se busca associar ou relacionar os conceitos com um plano de ação operaiconal de trabalho. E com isso ter condição de criar scritps de automação ou mesmo aplicar o PDCA nas rotinas de trabalho já estabelacidas!
 
