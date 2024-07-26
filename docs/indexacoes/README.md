@@ -4,6 +4,8 @@ Aplicando efetivamente na prática a mentalidade de aprendizagem continuada (#li
 
 Indexação de vídeos é uma estratégia para se aplicar técnicas de aprendizagem acelera (revisão espaçada). Onde se corta um vídeo de orientações técnicas. Relacionando um momento do vídeo com um Tema (uma palavra-chave) onde se explica um conceito ou técnica de codificação.
 
+_**IMPORTANTE**_: Já sei que existem ferramentas de Inteligências Artificiais que já fazem a transcrição (vídeo para texto)! Mas o objetivo de eu priorizar e fazer manualmente é realmente ter contato com o conteúdo e realmente absorver o conhecimento e com isso em mente criar os planos de ação necessários para colocar em prática e elaborar em projetos prova de conceito - POC.
+
 E depois se relacionar a indexação com um questionário de contexto onde se busca associar ou relacionar os conceitos com um plano de ação operaiconal de trabalho. E com isso ter condição de criar scritps de automação ou mesmo aplicar o PDCA nas rotinas de trabalho já estabelacidas!
 
 E **o objetivo é fortalecer a fixação do conceito e o seu uso prátino no projeto**! Criando uma forte relação entre os contextos / conceitos formando uma rede neural profunda e com uso realmente prático (empirismo) no dia a dia do trabalho operacioal!! E efetivametne agregar valor na equipe onde estamos atuando!
@@ -32,8 +34,6 @@ Até o momento, aplicáveis ao presente projeto, temos as seguintes indexações
 Tendo em mente que sempre buscamos melhorar o protocolo de trabalho operacional do dia a dia usando empirismo (colocar realmente em prática os conhecimentos abstratos).
 
 _**NOTA**_: Não se trata de ficar ditando regras no trabalho da equipe, mas sim melhorar o [meu operacional pessoal de trabalho](#da-analise-exploratoria) e com isso agregar valor melhorando a perfomance:
-
-_**IMPORTANTE**_: Já sei que existem ferramentas de Inteligências Artificiais que já fazem a transcrição (vídeo para texto)! Mas o objetivo de eu priorizar e fazer manualmente é realmente ter contato com o conteúdo e realmente absorver o conhecimento e com isso em mente criar os planos de ação necessários para colocar em prática e elaborar em projetos prova de conceito - POC.
 
 <img src="../../docs/imgs/pdca.png" alt="PDCA: Aplicar na prática o empirismo" title="PDCA" style="width:475px;"/>
  
