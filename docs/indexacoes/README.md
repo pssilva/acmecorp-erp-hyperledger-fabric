@@ -31,11 +31,12 @@ Até o momento, aplicáveis ao presente projeto, temos as seguintes indexações
 
 Tendo em mente que sempre buscamos melhorar o protocolo de trabalho operacional do dia a dia usando empirismo (colocar realmente em prática os conhecimentos abstratos).
 
-NOTA: Não se trata de ficar ditando regras no trabalho da equipe, mas sim melhorar o [meu operacional pessoal de trabalho](#da-analise-exploratoria) e com isso agregar valor melhorando a perfomance:
+_**NOTA**_: Não se trata de ficar ditando regras no trabalho da equipe, mas sim melhorar o [meu operacional pessoal de trabalho](#da-analise-exploratoria) e com isso agregar valor melhorando a perfomance:
+
+_**IMPORTANTE**_: Já sei que existem ferramentas de Inteligências Artificiais que já fazem a transcrição (vídeo para texto)! Mas o objetivo de eu priorizar e fazer manualmente é realmente ter contato com o conteúdo e realmente ter contato com o material e realmente absorver o conhecimento e para isso criar planos de ação para colocar em prática e executar em projeto prova de conceito - POC.
 
 <img src="../../docs/imgs/pdca.png" alt="PDCA: Aplicar na prática o empirismo" title="PDCA" style="width:475px;"/>
  
-
 --- 
 
 <a href="#FOWLER-Martin" id="da-analise-exploratoria">
