@@ -3,7 +3,7 @@
 # Filename: BlockchainShellHyperledgerScriptsUteis_menu_test.sh
 
 # Auth: Paulo Sérgio da Silva <pss1suporte@gmail.com>
-# Describe: Script para testa a função AnalistaSistemaRotinas.menu
+# Describe: Script para testa a função BlockchainShellHyperledgerScriptsUteis.menu
 # version: 1.0
 # license: MIT License
 #
@@ -12,9 +12,9 @@
 # ==============================================================
 # Variaveis de trabalho
 # ==============================================================
-export NAME_PROJECT="AnalistaSistemaRotinas"
+export NAME_PROJECT="BlockchainShellHyperledgerScriptsUteis"
 export ARTIFACT_ID="{{ARTIFACT_ID}}"
-export PARENT_MODULO="AnalistaSistemaRotinas"
+export PARENT_MODULO="BlockchainShellHyperledgerScriptsUteis"
 export NOME_MODULO="{{NOME_MODULO}}"
 export ROOT_PATH_SCRIPT="automation"
 
@@ -90,8 +90,8 @@ source "$SCRIPT_TOOL"
 #
 ########################################
 
-AnalistaSistemaRotinas.menu
-#AnalistaSistemaRotinas.menu "$PATH_WORK" "$GROUP_ID" "$ARTIFACT_ID"
+BlockchainShellHyperledgerScriptsUteis.menu
+#BlockchainShellHyperledgerScriptsUteis.menu "$PATH_WORK" "$GROUP_ID" "$ARTIFACT_ID"
 
 echo -e "\n\n\n"
 echo -e "################################"
@@ -114,7 +114,7 @@ echo -e "\n\n\n"
 #           ou 
 #           [src/test/automation/src/main/automation]
 #
-# sudo chmod +x ${HOME}/projetos/scripts-shell-uteis//home/pssilva/projetos/scripts-shell-uteis/src/main/automation/AnalistaSistemaRotinas/BlockchainShellHyperledgerScriptsUteis_menu_test.sh
-# source ${HOME}/projetos/scripts-shell-uteis//home/pssilva/projetos/scripts-shell-uteis/src/main/automation/AnalistaSistemaRotinas/BlockchainShellHyperledgerScriptsUteis_menu_test.sh
+# sudo chmod +x ${HOME}/projetos/acmecorp-erp-hyperledger-fabric/scripts/src/test/automation/BlockchainShellHyperledgerScriptsUteis/BlockchainShellHyperledgerScriptsUteis_menu_test.sh
+# source ${HOME}/projetos/acmecorp-erp-hyperledger-fabric/scripts/src/test/automation/BlockchainShellHyperledgerScriptsUteis/BlockchainShellHyperledgerScriptsUteis_menu_test.sh
 #
 ########################################################
